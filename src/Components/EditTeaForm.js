@@ -1,5 +1,5 @@
 import React from 'react';
-import TemplateForm from './TemplateForm'
+import DefaultForm from './DefaultForm'
 import PropTypes from 'prop-types';
 
 export default function EditTeaForm (props) {
