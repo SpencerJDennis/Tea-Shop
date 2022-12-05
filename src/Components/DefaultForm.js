@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function TemplateForm(props){
+export default function DefaultForm(props){
   let formTitle = "New Tea";
   let formSubTitle = "";
   let teaToEdit = [];
@@ -59,7 +59,7 @@ export default function TemplateForm(props){
   )
 }
 
-TemplateForm.propTypes = {
+DefaultForm.propTypes = {
   formSubmissionhandler: PropTypes.func,
   buttonText: PropTypes.string,
   editing: PropTypes.bool

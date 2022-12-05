@@ -5,7 +5,7 @@ export default function Tea(props){
   return(
     <div className="tea">
       <div className="teaclickeddetails" onClick={() => props.whenTeaClicked(props.id)}>
-        <h3 className="teaproperties">{props.name} - {props.origin} - {props.color} Tea - ${props.price} </h3>
+        <h3 className="teaproperties">{props.name} - {props.origin} Tea - ${props.price} </h3>
       </div>
       <div className="selltea">
         <button className="teabutton" onClick={() => props.whenTeaSold(props.id)}>Sell Tea <br/> {props.stock} oz.</button>
