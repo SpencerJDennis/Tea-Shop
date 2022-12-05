@@ -35,7 +35,7 @@ export default class TeaControl extends React.Component {
     this.setState({editing: true});
   }
 
-  handleEditingTeaList = (editTea) => {
+  handleEditingTeaInList = (editTea) => {
     const editedMasterTeaList = this.state.masterTeaList
       .filter(tea => tea.id !== this.state.selectedTea.id)
       .concat(editTea);
